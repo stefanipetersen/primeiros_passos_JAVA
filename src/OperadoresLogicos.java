@@ -4,11 +4,11 @@ public class OperadoresLogicos {
 
     public static void main(String[] args){
 
-        //main1(args);
-        //main2(args);
-        //main3(args);
-        //main4(args);
-        main5(args);
+        //main1(args); //Estruturas Condicionais
+        //main2(args); //Estruturas Condicionais com Operadores Lógicos
+        //main3(args); //Estruturas Condicionais com IF/ELSE encadeados
+        //main4(args); //Switch Case entra como a condição de escolha, como forma de lista
+        main5(args); //Mais um exemplo de switch case utilizando uma cafeteria
 
     }
 
