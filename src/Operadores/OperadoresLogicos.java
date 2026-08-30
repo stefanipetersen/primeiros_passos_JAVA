@@ -1,3 +1,5 @@
+package Operadores;
+
 import java.util.Scanner;
 
 public class OperadoresLogicos {

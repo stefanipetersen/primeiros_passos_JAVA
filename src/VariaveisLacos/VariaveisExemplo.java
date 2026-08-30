@@ -1,6 +1,18 @@
-public class Informacoes {
+package VariaveisLacos;
 
-    public static void infos(String[] args) {
+public class VariaveisExemplo {
+    public static void main(String[] args){
+        //Declarando e inicializando variáveis
+        int idade = 30;
+        double altura = 1.75;
+        char genero = 'M';
+        boolean estudante = true;
+
+        //Exibindo os valores das variáveis
+        System.out.println("Idade: " + idade);
+        System.out.println("Altura: " + altura);
+        System.out.println("Gênero: " + genero);
+        System.out.println("É estudante? " + estudante);
 
         //Em Java sempre declaramos uma variável começando pelo tipo + nome da variável.
         String cachorro;
@@ -15,18 +27,18 @@ public class Informacoes {
 
         //byte, short, int, long - numeros inteiros, porém o byte armazena uma quantidade bem menor em relação aos outros dois tipos, quanto mais para a direita mais consegue armazenar a quantidade de numeros.
 
-        int idade;
-        idade = 33;
+        int baloes;
+        baloes = 33;
 
         //float, double - numeros decimais, a diferença é q o double consegue armazenar maior numero de dados depois da virgula. Um detalhe é q o float precisa colocar o f no final do numero, se n ele gera um erro e sugere q aquele valor é double.
-        float altura;
-        altura = 1.65f;
+        float peso;
+        peso = 1.65f;
 
-        double peso;
-        peso = 55.2;
+        double dinheiro;
+        dinheiro = 55.2;
 
         //char - apenas um caracter e quando nomear usar aspas simples.
-        char genero = 'M';
+        char tamanho = 'M';
         char numero = '1';
 
         //boolean - verdadeiro ou falso
@@ -40,4 +52,7 @@ public class Informacoes {
         //String - texto e quando for nomear usar apas duplas.
         String nome = "Stefani Petersen";
     }
+
+
 }
+

@@ -1,3 +1,5 @@
+package VariaveisLacos;
+
 import java.util.Scanner;
 import java.util.Random;
 
@@ -6,9 +8,9 @@ public class LacosDeRepeticao {
     public static void main(String[] args){
 
         //main1(args); //Aprendendo usar o DO - Jogo de adivinhação
-        //main2(args); //Utilizando o DO para evoluir o sistema da cafeteria (OperadoresLogicos):
+        //main2(args); //Utilizando o DO para evoluir o sistema da cafeteria (Operadores.OperadoresLogicos):
         //main3(args); //Usando o DO-WHILE
-        //main4(args); //Usando o DO-WHILE para evoluir o sistema da cafeteria (OperadoresLogicos):
+        //main4(args); //Usando o DO-WHILE para evoluir o sistema da cafeteria (Operadores.OperadoresLogicos):
         //main5(args); //Jogo de adivinhação com o DO-WHILE
         //main6(args); //Escrevendo números de 1 a 10 usando FOR
         //main7(args); //Lendo as notas de 10 alunos e calculando a média
@@ -52,7 +54,7 @@ public class LacosDeRepeticao {
         scanner.close();
     }
 
-    //Exercício 2 - Utilizando o DO para evoluir o sistema da cafeteria (OperadoresLogicos):
+    //Exercício 2 - Utilizando o DO para evoluir o sistema da cafeteria (Operadores.OperadoresLogicos):
 
     public static void main2(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -124,7 +126,7 @@ public class LacosDeRepeticao {
         } while (contador <= 5);
     }
 
-    // Exercício 4 - Usando o DO-WHILE para evoluir o sistema da cafeteria (OperadoresLogicos):
+    // Exercício 4 - Usando o DO-WHILE para evoluir o sistema da cafeteria (Operadores.OperadoresLogicos):
 
     public static void main4(String[] args) {
         Scanner scanner = new Scanner(System.in);

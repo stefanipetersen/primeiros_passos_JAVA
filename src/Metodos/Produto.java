@@ -1,4 +1,4 @@
-package AulaMetodos;
+package Metodos;
 
 public class Produto {
 

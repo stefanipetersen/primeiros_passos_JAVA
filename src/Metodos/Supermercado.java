@@ -1,4 +1,4 @@
-package AulaMetodos;
+package Metodos;
 
 import java.util.Scanner;
 
