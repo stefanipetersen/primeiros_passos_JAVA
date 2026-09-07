@@ -1,8 +1,7 @@
-package Encapsulamento.view;
-
-import Encapsulamento.model.Aluno;
-import Encapsulamento.model.Cidade;
-import Encapsulamento.model.Endereco;
+package src.Encapsulamento.view;
+import src.Encapsulamento.model.Aluno;
+import src.Encapsulamento.model.Cidade;
+import src.Encapsulamento.model.Endereco;
 import Modificadores.Cliente;
 
 import java.util.Scanner;

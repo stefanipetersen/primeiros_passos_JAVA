@@ -1,4 +1,4 @@
-package Encapsulamento.model;
+package src.Encapsulamento.model;
 
 public class Endereco {
 
