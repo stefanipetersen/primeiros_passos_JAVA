@@ -1,5 +1,6 @@
-import Metodos.HabilidadeEspecial;
-import Metodos.Personagem;
+package src;
+import src.Metodos.HabilidadeEspecial;
+import src.Metodos.Personagem;
 
 import java.util.Scanner;
 

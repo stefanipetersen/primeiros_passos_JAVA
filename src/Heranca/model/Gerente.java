@@ -49,6 +49,8 @@ public class Gerente extends Funcionario {
         this.faturamentoSemestral = faturamentoSemestral;
     }
 
+    //O Override serve para chamar o metodo que ja existe, porem fazer uma modificação para o seu caso em específico, nesse caso ele chama e faz uma multiplicação com um valor espepecífico.
+
     @Override
     public double getBonus() {return this.getFaturamentoSemestral() * 0.05;}
 
